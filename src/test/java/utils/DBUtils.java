@@ -15,8 +15,6 @@ public class DBUtils {
 	public static Statement st;
 	public static ResultSet rs;
 
-	 
-
 	@Test
 	public void getDataFromDB() throws SQLException {
 		getConnection();
